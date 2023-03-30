@@ -28,6 +28,15 @@ const Computers = () => {
   )
 }
 const ComputersCanvas = () => {
+  const[isMobile, setIsMobile] = useState(false)
+
+  
+  useEffect (() => {
+     return () => {
+      second
+     }
+  }, [third])
+
 
   return (
     <Canvas
